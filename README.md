@@ -122,3 +122,29 @@ We went over some of chapter 3 and worked on environment diagrams
 * Environment diagrams or memory diagrams 
 	* when you make a binding it re-assigna the value as the old one gets deleted  
 	* everything without an arrow back to the global will get deleted 
+
+# session 5 - February 3
+
+Learned about Recursion and did some coding examples
+
+## Chapter 3 cont.
+
+* Recursion:
+	* another way to do repetition, looping 
+
+* Running out of stack memory is called “blowing the stack” 
+
+* The recursive call should be the last thing in the function 
+
+* The recursive part is hidden in another function 
+
+* Think groundhog day or Doc strange, repeating the same thing over and over again with new information each time 
+
+* Tracking state of the call stack instead of being in a variable 
+
+* It is mathematically pure code so it was used much sooner and upgraded earlier 
+	* this lets you pause a looping calculation and then resume it later on 
+
+* We don't like state variables, they change without you knowing. Try to be stateless as much as possible. State makes life hard and gives you problems. 
+
+* A for loop or while loop goes through the motions and it cant be changed. While what we have now can be changed and messed around with 
